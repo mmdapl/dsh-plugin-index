@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH Community Starter Index",
+    "zh": "DSH 社区起步索引"
+  },
+  "description": {
+    "en": "A small hand-picked index of official DSH optional bundles, installable from the Discover tab.",
+    "zh": "精选的 DSH 官方可选组合包索引，可直接在「发现」页安装。"
+  },
+  "plugins": [
+    {
+      "name": "@deepseek-ai/dsh-experimental-terminal-bundle",
+      "title": {
+        "en": "Terminal",
+        "zh": "终端"
+      },
+      "description": {
+        "en": "Terminal: run long-lived commands in a sidebar terminal you can watch.",
+        "zh": "终端：在侧栏终端里运行长命令，过程随时可见。"
+      },
+      "author": "DeepSeek",
+      "metadata": {
+        "keywords": [
+          "terminal",
+          "bundle"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.2",
+          "publishTimestamp": 1794449161,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.2"
+          }
+        }
+      ],
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness"
+      }
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-search",
+      "title": {
+        "en": "Session search",
+        "zh": "会话搜索"
+      },
+      "description": {
+        "en": "Session search: let agents search and read earlier sessions in this workspace.",
+        "zh": "会话搜索：让 Agent 检索并阅读本工作区的历史会话。"
+      },
+      "author": "DeepSeek",
+      "metadata": {
+        "keywords": [
+          "session",
+          "search"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.2",
+          "publishTimestamp": 1794449141,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.2"
+          }
+        }
+      ],
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness"
+      }
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-voice-input-bundle",
+      "title": {
+        "en": "Voice input",
+        "zh": "语音输入"
+      },
+      "description": {
+        "en": "Voice input with a local SenseVoice model; the runtime downloads on first use.",
+        "zh": "语音输入：本地 SenseVoice 模型，首次使用时自动下载。"
+      },
+      "author": "DeepSeek",
+      "metadata": {
+        "keywords": [
+          "voice",
+          "input",
+          "bundle"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.2",
+          "publishTimestamp": 1794449160,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.2"
+          }
+        }
+      ],
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness"
+      }
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-cot-translation-bundle",
+      "title": {
+        "en": "Reasoning translation",
+        "zh": "思维链翻译"
+      },
+      "description": {
+        "en": "Machine translation for expanded reasoning.",
+        "zh": "思维链翻译：把展开的推理内容翻译成当前语言。"
+      },
+      "author": "DeepSeek",
+      "metadata": {
+        "keywords": [
+          "cot",
+          "translation",
+          "bundle"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.2",
+          "publishTimestamp": 1794449021,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.2"
+          }
+        }
+      ],
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness"
+      }
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-badge-skill-bundle",
+      "title": {
+        "en": "dsh badge",
+        "zh": "dsh 徽标"
+      },
+      "description": {
+        "en": "Let agents add a \"powered by dsh\" badge to documents and pull requests.",
+        "zh": "徽标：让 Agent 在文档、PR 等产出上标注 powered by dsh。"
+      },
+      "author": "DeepSeek",
+      "metadata": {
+        "keywords": [
+          "badge",
+          "skill",
+          "bundle"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.2",
+          "publishTimestamp": 1794449010,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.2"
+          }
+        }
+      ],
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness"
+      }
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-ralph-bundle",
+      "title": {
+        "en": "Ralph",
+        "zh": "Ralph"
+      },
+      "description": {
+        "en": "Run explicitly requested repeated work with fresh agents.",
+        "zh": "Ralph：用全新的 Agent 反复执行明确要求的重复任务。"
+      },
+      "author": "DeepSeek",
+      "metadata": {
+        "keywords": [
+          "ralph",
+          "bundle"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.2",
+          "publishTimestamp": 1794449103,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.2"
+          }
+        }
+      ],
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness"
+      }
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-titles-bundle",
+      "title": {
+        "en": "Session titles",
+        "zh": "会话标题"
+      },
+      "description": {
+        "en": "Refresh session titles as new human prompts arrive.",
+        "zh": "会话标题：每轮新提问后自动刷新标题。"
+      },
+      "author": "DeepSeek",
+      "metadata": {
+        "keywords": [
+          "session",
+          "titles",
+          "bundle"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.2",
+          "publishTimestamp": 1794449291,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.2"
+          }
+        }
+      ],
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness"
+      }
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-liveshare",
+      "title": {
+        "en": "LiveShare",
+        "zh": "LiveShare"
+      },
+      "description": {
+        "en": "Share a session through a separate relay, with forking and attachment uploads.",
+        "zh": "LiveShare：通过独立 Relay 共享会话，支持分叉与附件上传。"
+      },
+      "author": "DeepSeek",
+      "metadata": {
+        "keywords": [
+          "liveshare"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.2",
+          "publishTimestamp": 1794449313,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.2"
+          }
+        }
+      ],
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness"
+      }
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-auto-review",
+      "title": {
+        "en": "Auto review",
+        "zh": "自动审查"
+      },
+      "description": {
+        "en": "Per-tool LLM authorization review for the Auto permission preset.",
+        "zh": "自动审查：Auto 权限下对每次工具调用做 LLM 授权审查。"
+      },
+      "author": "DeepSeek",
+      "metadata": {
+        "keywords": [
+          "auto",
+          "review"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.2",
+          "publishTimestamp": 1794449052,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.2"
+          }
+        }
+      ],
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness"
+      }
+    }
+  ]
+}
